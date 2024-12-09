@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-talpa</title>
+</head>
+<body>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            width: 300px;
+        }
+
+        .child{
+            width: 90px;
+            height: 90px;
+            background-color: yellow;
+        }
+
+        .active{
+            background-color: yellow;
+        }
+        </style>
+        <section class="icon-list">
+  <!-- Copyright Nintendo -->
+  <i class="nes-mario"></i>
+  <i class="nes-ash"></i>
+  <i class="nes-pokeball"></i>
+  <i class="nes-bulbasaur"></i>
+  <i class="nes-charmander"></i>
+  <i class="nes-squirtle"></i>
+  <i class="nes-kirby"></i>
+</section>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <div class="startGame">
+        <a id="Start" href="#"></a>
+    </div>
+</body>
+</html>
